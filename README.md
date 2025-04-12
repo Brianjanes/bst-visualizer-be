@@ -11,8 +11,8 @@ A Binary Search Tree visualization tool with Spring Boot backend and React front
 
 ### Running the Backend
 
-```bash
-./mvnw spring-boot:run
+```
+hit the play button :)
 ```
 
 ### API Endpoints
@@ -27,7 +27,7 @@ The frontend is a separate React application that communicates with the backend 
 ### Running the Frontend
 
 ```bash
-cd frontend
-npm install
+cd bst-visualizer-fe
+npm i
 npm start
 ```

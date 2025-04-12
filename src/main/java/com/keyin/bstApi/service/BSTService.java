@@ -27,12 +27,12 @@ public class BSTService {
      */
     @Transactional
     public BSTRecord createTree(List<Integer> numbers) {
-        logger.info("Creating BST from {} numbers", numbers.size());
-        
         if (numbers == null || numbers.isEmpty()) {
             logger.error("Invalid input: numbers list is null or empty");
             throw new IllegalArgumentException("Numbers list cannot be null or empty");
         }
+        
+        logger.info("Creating BST from {} numbers", numbers.size());
 
         TreeNode root = null;
 
